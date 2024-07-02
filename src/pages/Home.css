@@ -7,12 +7,12 @@
     font-weight: 800; /* equivalent to font-extrabold */
     color: white; /* equivalent to text-white */
     padding: 1rem;
-    margin-left: 17rem; /* equivalent to p-4 */
+    margin-left: 2rem; /* equivalent to p-4 */
   }
   
   .content {
     display: flex; /* equivalent to flex */
-    margin-left: 17rem; /* equivalent to ml-4 */
+    margin-left: 2rem; /* equivalent to ml-4 */
   }
   
   .left-section {
