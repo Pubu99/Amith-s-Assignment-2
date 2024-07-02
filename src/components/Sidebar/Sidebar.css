@@ -1,0 +1,50 @@
+.sidebar {
+    height: 100vh; /* equivalent to h-screen */
+    display: flex; /* equivalent to flex */
+    flex-direction: column; /* equivalent to flex-col */
+    position: fixed; /* equivalent to fixed */
+    left: 0; /* equivalent to left-0 */
+    top: 0; /* equivalent to top-0 */
+    background-color: #1e293b; /* equivalent to bg-slate-900 */
+    width: 16rem; /* equivalent to w-64 */
+    background-color: #111827; 
+  }
+  
+  .sidebar-header {
+    padding: 1rem; /* equivalent to p-4 */
+    display: flex; /* equivalent to flex */
+    align-items: center; /* equivalent to items-center */
+    justify-content: center; /* equivalent to justify-center */
+    gap: 0.5rem; /* equivalent to gap-2 */
+    /* equivalent to bg-slate-950 */
+  }
+  
+  .logo {
+    height: 3rem; /* equivalent to h-12 */
+    width: 3rem; /* equivalent to w-12 */
+    border-radius: 9999px; /* equivalent to rounded-full */
+    object-fit: cover; /* equivalent to object-cover */
+  }
+  
+  .title {
+    font-size: 1.5rem; /* equivalent to text-2xl */
+    font-weight: bold; /* equivalent to font-bold */
+    color: white; /* equivalent to text-white */
+    padding-right: 0.5rem; /* equivalent to pr-2 */
+  }
+  
+  .sidebar-content {
+    overflow-y: auto; /* equivalent to overflow-y-auto */
+    flex: 1; /* equivalent to flex-1 */
+  }
+  
+  /* Hide scrollbar for the .sidebar-content element */
+  .sidebar-content::-webkit-scrollbar {
+    display: none; /* equivalent to scrollbar-hide */
+  }
+  
+  .sidebar-content {
+    -ms-overflow-style: none; /* equivalent to scrollbar-hide for IE and Edge */
+    scrollbar-width: none; /* equivalent to scrollbar-hide for Firefox */
+  }
+  

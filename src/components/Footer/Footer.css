@@ -1,0 +1,16 @@
+.footer {
+    background-color: #111827; /* equivalent to bg-gray-950 */
+    color: white; /* equivalent to text-white */
+    text-align: center; /* equivalent to text-center */
+    position: fixed; /* equivalent to fixed */
+    bottom: 0; /* equivalent to bottom-0 */
+    width: 100%; /* equivalent to w-full */
+  }
+  
+  .footer-content {
+    display: flex; /* equivalent to flex */
+    gap: 1rem; /* equivalent to gap-4, assuming 1rem for 16px */
+    justify-content: center; /* equivalent to justify-center */
+    padding: 1rem; /* equivalent to p-4, assuming 1rem for 16px */
+  }
+  

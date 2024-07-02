@@ -1,0 +1,158 @@
+.home {
+    background-color: #1e293b; /* equivalent to bg-slate-800 */
+  }
+  
+  .header {
+    font-size: 1.875rem; /* equivalent to text-3xl */
+    font-weight: 800; /* equivalent to font-extrabold */
+    color: white; /* equivalent to text-white */
+    padding: 1rem;
+    margin-left: 17rem; /* equivalent to p-4 */
+  }
+  
+  .content {
+    display: flex; /* equivalent to flex */
+    margin-left: 17rem; /* equivalent to ml-4 */
+  }
+  
+  .left-section {
+    display: flex;
+    flex-direction: column; /* equivalent to flex-col */
+  }
+  
+  .banner-container {
+    padding: 1rem; /* equivalent to p-4 */
+    cursor: pointer;
+  }
+  
+  .banner {
+    border-radius: 0.75rem; /* equivalent to rounded-xl */
+  }
+  
+  .section-title {
+    color: white; /* equivalent to text-white */
+    font-weight: bold; /* equivalent to font-bold */
+    font-size: 1.125rem; /* equivalent to text-lg */
+    padding: 1rem; /* equivalent to p-4 */
+  }
+  
+  .song-grid {
+    display: grid; /* equivalent to grid */
+    grid-template-columns: repeat(1, 1fr); /* equivalent to grid-cols-1 */
+    gap: 1rem; /* equivalent to gap-4 */
+  }
+  
+  @media (min-width: 640px) {
+    .song-grid {
+      grid-template-columns: repeat(2, 1fr); /* equivalent to sm:grid-cols-2 */
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .song-grid {
+      grid-template-columns: repeat(4, 1fr); /* equivalent to md:grid-cols-4 */
+    }
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column; /* equivalent to flex-col */
+    margin-left: 2rem; /* equivalent to ml-8 */
+    width: 24rem; /* equivalent to w-96 */
+  }
+  
+  .ads-container, .maker-avatar, .support-section, .footer {
+    padding-bottom: 2rem; /* equivalent to pb-8 */
+    padding-top: 1rem; /* equivalent to pt-4 */
+    border-top: 1px solid #333; /* equivalent to border-t */
+  }
+  
+  .ad-element {
+    padding: 0.5rem; /* equivalent to p-2 */
+    padding-left: 0; /* equivalent to pl-0 */
+  }
+  
+  .ad-image {
+    border-radius: 0.75rem; /* equivalent to rounded-xl */
+  }
+  
+  .maker-avatar {
+    display: flex; /* equivalent to flex */
+    padding: 0.5rem; /* equivalent to p-2 */
+    padding-left: 0; /* equivalent to pl-0 */
+  }
+  
+  .avatar-image {
+    border-radius: 9999px; /* equivalent to rounded-full */
+    width: 3rem; /* equivalent to w-12 */
+    height: 3rem; /* equivalent to h-12 */
+  }
+  
+  .maker-info {
+    display: flex;
+    flex-direction: column; /* equivalent to flex-col */
+    margin-left: 1rem; /* equivalent to ml-4 */
+  }
+  
+  .maker-name {
+    font-size: 1rem; /* equivalent to text-md */
+    color: white; /* equivalent to text-white */
+    font-weight: bold; /* equivalent to font-bold */
+  }
+  
+  .maker-details {
+    font-size: 0.875rem; /* equivalent to text-sm */
+    color: white; /* equivalent to text-white */
+  }
+  
+  .support-section {
+    display: flex;
+    flex-direction: column; /* equivalent to flex-col */
+    align-items: center; /* equivalent to items-center */
+    text-align: center;
+    color: white; /* equivalent to text-white */
+  }
+  
+  .support-title {
+    font-weight: bold; /* equivalent to font-bold */
+  }
+  
+  .support-description {
+    padding-top: 1rem; /* equivalent to pt-4 */
+    padding-bottom: 1rem; /* equivalent to pb-4 */
+  }
+  
+  .support-button {
+    background-color: #3b82f6; /* equivalent to bg-blue-500 */
+    padding: 0.5rem; /* equivalent to p-2 */
+    margin-right: 0.5rem; /* equivalent to mr-2 */
+    display: flex;
+    justify-content: center; /* equivalent to justify-center */
+    font-weight: bold; /* equivalent to font-bold */
+    border-radius: 0.75rem; /* equivalent to rounded-xl */
+    width: 100%; /* equivalent to w-full */
+    border: 1px solid #333; /* equivalent to border */
+    cursor: pointer;
+  }
+  
+  .support-button.donation {
+    background-color: #f87171; /* equivalent to bg-rose-500 */
+  }
+  
+  .support-or {
+    font-weight: 800; /* equivalent to font-extrabold */
+    padding-top: 1rem; /* equivalent to py-4 */
+    padding-bottom: 1rem; /* equivalent to py-4 */
+  }
+  
+  .support-key {
+    font-weight: 800; /* equivalent to font-extrabold */
+    padding-top: 1rem; /* equivalent to py-4 */
+  }
+  
+  .footer {
+    color: white; /* equivalent to text-white */
+    font-size: 0.75rem; /* equivalent to text-xs */
+    padding-top: 1rem; /* equivalent to pt-4 */
+  }
+  

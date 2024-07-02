@@ -1,0 +1,56 @@
+.song-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem; /* equivalent to rounded-lg */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* equivalent to shadow-lg */
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .song-image {
+    width: 16rem; /* equivalent to w-64 */
+    height: 16rem; /* equivalent to h-64 */
+    object-fit: cover; /* equivalent to object-cover */
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0; /* equivalent to absolute positioning inset-0 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* equivalent to opacity-0 */
+    transition: opacity 0.3s; /* equivalent to transition-opacity duration-300 */
+    background-color: rgba(0, 0, 0, 0.5); /* equivalent to bg-black bg-opacity-50 */
+  }
+  
+  .overlay.hovered {
+    opacity: 1; /* equivalent to opacity-100 */
+  }
+  
+  .play-button {
+    color: white; /* equivalent to text-white */
+    font-size: 2rem; /* equivalent to text-4xl */
+    border: none;
+    background: none;
+    outline: none; /* equivalent to focus:outline-none */
+    cursor: pointer;
+  }
+  
+  .song-info {
+    padding: 1rem; /* equivalent to px-4 py-2 */
+  }
+  
+  .song-title {
+    font-size: 1.125rem; /* equivalent to text-lg */
+    font-weight: bold; /* equivalent to font-bold */
+    color: white; /* equivalent to text-white */
+  }
+  
+  .song-artist {
+    font-size: 0.875rem; /* equivalent to text-sm */
+    color: #d1d5db; /* equivalent to text-gray-300 */
+  }
+  

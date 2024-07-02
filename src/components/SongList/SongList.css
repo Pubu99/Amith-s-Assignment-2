@@ -1,0 +1,7 @@
+.song-item {
+    display: flex; /* equivalent to flex */
+    padding: 1rem; /* equivalent to p-4 */
+    gap: 1rem; /* equivalent to gap-4 */
+    color: white; /* equivalent to text-white */
+  }
+  
