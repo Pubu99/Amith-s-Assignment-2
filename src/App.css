@@ -1,3 +1,4 @@
+/* Add your existing styles if necessary */
 .App {
   text-align: center;
 }
@@ -35,4 +36,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* New styles for the converted Tailwind CSS classes */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* equivalent to min-h-screen */
+}
+
+.main-content {
+  display: flex;
+  flex: 1; /* equivalent to flex-1 */
+}
+
+.content-area {
+  margin-left: 16rem; /* equivalent to ml-64 */
+  flex: 1; /* equivalent to flex-1 */
+  overflow: auto; /* equivalent to overflow-auto */
 }

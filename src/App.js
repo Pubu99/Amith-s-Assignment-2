@@ -3,20 +3,21 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import './App.css'; // Import the CSS file
 
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="flex flex-col min-h-screen">
-        <div className="flex flex-1">
+      <div className="app-container">
+        <div className="main-content">
           <Sidebar />
-          <div className="ml-64 flex-1 overflow-auto">
+          <div className="content-area">
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </BrowserRouter>
   );
